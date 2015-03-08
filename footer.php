@@ -40,7 +40,7 @@
                 <i class="fa fa-twitter fa-2x"></i>&nbsp;
                 </a>
 
-                <a href="https://twitter.com/blackroaddesign">
+                <a href="http://github.com/danieldevine">
                 <i class="fa fa-github-alt fa-2x"></i>&nbsp;
                 </a>
                 <a href="https://twitter.com/blackroaddesign">
@@ -99,7 +99,7 @@
 
           © Daniel Devine / BLACK ROAD DESIGN 2012 - <?php echo date( "Y") ?> <br/>
           Fonts by <a href="http://typekit.com/colophons/jte0eum">Typekit</a> &nbsp;|&nbsp;
-          Theme: <a href="https://github.com/danieldevine"> blackroadspecial </a> by Daniel Devine.<br/>
+          Theme: <a href="http://github.com/danieldevine/blackroadspecial.git"> blackroadspecial </a> by Daniel Devine.<br/>
           Built with <a href="http://grunt.com">Grunt</a> &amp; <a href="http://sass.com">Sass</a> in Ireland.
           Powered by <a href="http://wordpress.org"> Wordpress </a>
 
