@@ -1,0 +1,9 @@
+$prime-color:rgba(0,141,210,1.0);//light blue
+$second-color:#fff;//white
+$third-color:#ef7f1a;//bright orange
+$fourth-color: #ff0;//yellow
+$highlight:#099EE7;//brighter blue
+
+@mixin shadow {
+  box-shadow: 0 10px 0px 5px rgba(0,0,0,0.1);
+}

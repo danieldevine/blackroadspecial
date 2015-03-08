@@ -1,0 +1,109 @@
+/*
+all hail the mighty subparbar and chums, aka the splash-box on the homepage.
+//////////TODO:///////////
+a) Turn this into a content slider.
+b) Re-name the classes.
+*/
+
+.subparbar {
+	width: 100%;
+	height: auto;
+	border-bottom: #333 thin;
+	@include shadow;
+	background-color: $highlight;
+}
+
+.subparbar hr {
+	background-image: url(../img/build/line2.png)
+}
+
+.subparsack {
+	width: 90%;
+	max-width: 92.3em;
+	margin: 0 auto;
+	padding-bottom: 2em;
+	padding-top: 2em;
+}
+
+.subparsack p {
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+	color: #fff;
+}
+
+.subparsack p img {
+	display: inline;
+	float: left;
+}
+
+.holster {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+@media only screen and (max-width : 689px) {
+	.subparbar {
+		box-shadow: 0 0px 0px 0px rgba(0,0,0,0.1);
+	}
+}
+
+@media only screen and (max-width : 640px) {
+	.subparsack {
+		padding-top: 0;
+		padding-bottom: 0.5em;
+	}
+	.subparsack p {
+		padding-top: 0;
+	}
+	#rules {
+		display: none;
+	}
+}
+
+@media only screen and (max-width : 400px) {
+	.subparsack img {
+		width: 80%;
+	}
+}
+
+
+
+//three column setup on homepage
+
+.toppic {
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 689px) {
+	.toppic {
+      display: none;
+      visibility: hidden;
+      height: 0px;
+      width: 0px;
+	}
+}
+
+.home-columns {
+	text-align: left;
+	margin-bottom: 20px;
+	padding:0 8%;
+	font-size: 16px;
+	line-height: 160%;
+	margin: 0;
+}
+
+@media only screen and (max-width: 689px) {
+	.home-columns {
+      float: left;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+    .home-columns {
+      margin: 0 auto;
+      margin-top: 0;
+      margin-bottom: 10px;
+      padding-left: 2%;
+      padding-right: 0;
+	}
+}

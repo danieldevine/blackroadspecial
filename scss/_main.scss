@@ -1,0 +1,81 @@
+body {
+	text-align: center;
+	width: 100%;
+	padding: 0;
+	min-height: 100%;
+	margin: 0 0 600px;/* bottom = footer height */
+	color: #333;
+}
+
+@media only screen and (max-width: 800px) {
+	body {
+		margin: 0 0 750px;/* bottom = footer height */;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	body {
+		margin: 0 0 1000px;/* bottom = footer height */;
+	}
+}
+
+/*the header-------------------------------*/
+header {
+  height: 100px;
+  margin: 0 auto;
+}
+
+@media only screen and ( max-width: 40em ) /* 640 */ {
+  header {
+    height: 100%;
+    position: relative;
+    background: rgb(0,0,0);
+  }
+}
+
+.mainwrapper {
+	margin: 0 auto;
+	clear: both;
+	width: 90%;
+	max-width: 92.3em;
+}
+
+// class to add lines fore and aft.
+
+.lined:before {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+  margin-bottom: 10px;
+  background-image: url(../img/build/line.png);
+}
+
+.lined:after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+  margin-top: 10px;
+  background-image: url(../img/build/line.png);
+}
+
+// class to add shorter lines fore and aft.
+
+.lined-short:before {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 70%;
+  margin: 0 auto 10px;
+  background-image: url(../img/build/line.png);
+}
+
+.lined-short:after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 70%;
+  margin: 10px auto 0;
+  background-image: url(../img/build/line.png);
+}

@@ -1,0 +1,45 @@
+input.button {
+	background:$prime-color;
+	border-radius: 5px;
+    border:0;
+	color: #fff;
+	display: inline-block;
+	font-size: 1.1em;
+    letter-spacing: 1px;
+	margin: 10px auto 0;
+	padding: 8px;
+	transition: all 0.5s ease;
+}
+
+input.button:hover {
+	background: rgba(0,0,0,0.6);
+    cursor:pointer;
+}
+
+.butthead {
+	background:$third-color;
+	border-radius: 10px;
+	color: #fff;
+	display: inline-block;
+	font-size: 1.5em;
+  	letter-spacing: 1px;
+	margin: 30px auto;
+	padding: 15px;
+	transition: all 0.5s ease;
+}
+
+.butthead:hover {
+  background:rgba(0,0,0,0.6);
+}
+
+@media only screen and (max-width : 640px) {
+	.butthead {
+		font-size: 1em;
+	}
+}
+
+.sharing-is-caring img {
+  width:30px;
+  padding:2px;
+  display:inline;
+}

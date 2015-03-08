@@ -1,0 +1,19 @@
+.single-wrapper {
+  margin-top: 30px;
+}
+
+.single-title {
+  font-size:28px;
+  text-transform:uppercase;
+  color:$prime-color;
+}
+
+.single-content {
+  text-align:left;
+}
+
+.single-featured-image > img {
+  max-width:90%;
+  height:auto;
+  margin:1em auto;
+}
