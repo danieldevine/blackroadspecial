@@ -99,8 +99,8 @@
           Fonts by <a href="http://typekit.com/colophons/jte0eum" target="_blank">Typekit</a> &nbsp;|&nbsp;
           Theme: <a href="http://github.com/danieldevine/blackroadspecial.git" target="_blank"> blackroadspecial </a>
           by Daniel Devine.<br/>
-          Built with <a href="http://grunt.com" target="_blank">Grunt</a> &amp;
-          <a href="http://sass.com"target="_blank">Sass</a> in Ireland.
+          Built with <a href="http://gruntjs.com/" target="_blank">Grunt</a> &amp;
+          <a href="http://sass-lang.com/" hidden=""target="_blank">Sass</a> in Ireland.
           Powered by <a href="http://wordpress.org" target="_blank"> Wordpress </a>
 
         </div>
