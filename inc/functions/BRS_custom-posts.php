@@ -8,7 +8,6 @@
   * @filesource   :    wp-content/themes/blackroadspecial/inc/functions/BRS_custom-posts.php
   *
   *Adds custom post types and makes categories and tags available to all.
-  *
   */
 
 //WORK
@@ -64,7 +63,7 @@ function BRS_services() {
         'labels'        => $labels,
         'description'   => 'Holds our services and service specific data',
         'public'        => true,
-        'menu_position' => 6,// don't forgert to update this
+        'menu_position' => 6,// don't forget to update this
         'supports'      => array( 'title', 'editor', 'thumbnail', 'excerpt', 'comments' ),
         'has_archive'   => true,
         // Set the available taxonomies here
