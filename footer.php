@@ -43,14 +43,12 @@
                 <a href="http://github.com/danieldevine">
                 <i class="fa fa-github-alt fa-2x"></i>&nbsp;
                 </a>
-                <a href="https://twitter.com/blackroaddesign">
+                <a href="https://bitbucket.org/blackroad">
                 <i class="fa fa-bitbucket fa-2x"></i>
                 </a>
 
                 <ul>
-                  <li> <a href="/services">  Services  </a> </li>
-                  <li> <a href="/enquiries"> Enquiries </a> </li>
-                  <li> <a href="/contact">   Contact Us</a> </li>
+                  <?php wp_nav_menu('secondary') ?>
                   <p>(LinkedIn is for weenies.)</p>
                 </ul>
 
@@ -98,10 +96,12 @@
         <div class="footer-credits lined">
 
           © Daniel Devine / BLACK ROAD DESIGN 2012 - <?php echo date( "Y") ?> <br/>
-          Fonts by <a href="http://typekit.com/colophons/jte0eum">Typekit</a> &nbsp;|&nbsp;
-          Theme: <a href="http://github.com/danieldevine/blackroadspecial.git"> blackroadspecial </a> by Daniel Devine.<br/>
-          Built with <a href="http://grunt.com">Grunt</a> &amp; <a href="http://sass.com">Sass</a> in Ireland.
-          Powered by <a href="http://wordpress.org"> Wordpress </a>
+          Fonts by <a href="http://typekit.com/colophons/jte0eum" target="_blank">Typekit</a> &nbsp;|&nbsp;
+          Theme: <a href="http://github.com/danieldevine/blackroadspecial.git" target="_blank"> blackroadspecial </a>
+          by Daniel Devine.<br/>
+          Built with <a href="http://grunt.com" target="_blank">Grunt</a> &amp;
+          <a href="http://sass.com"target="_blank">Sass</a> in Ireland.
+          Powered by <a href="http://wordpress.org" target="_blank"> Wordpress </a>
 
         </div>
 
