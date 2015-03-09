@@ -1,11 +1,11 @@
 <?php
   /**
   * @Theme Name   :    blackroadspecial
-  * @file         :    work.php
+  * @file         :    service.php
   * @package      :    blackroadspecial
   * @author       :    Dan Devine
   * @license      :    GPLv3
-  * @filesource   :    wp-content/themes/blackroadspecial/work.php
+  * @filesource   :    wp-content/themes/blackroadspecial/service.php
   */
   get_header();?>
 
@@ -17,7 +17,7 @@
       </div>
 
       <?php while ( have_posts() ) : the_post(); ?>
-      <?php get_template_part('content', 'work'); ?>
+      <?php get_template_part('content', 'service'); ?>
       <?php endwhile; // end of the loop. ?>
 
   </div>
