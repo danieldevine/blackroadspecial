@@ -528,7 +528,11 @@ input.button:hover {
 
   .span_1_of_4 {
     width: 49.2%;
-    margin: 1% 0 1% 0%; } }
+    margin: 1% 0 1% 0%; }
+
+  .span_1_of_4:nthchild(2n+1) {
+    clear: both;
+    margin-left: 0; } }
 @media only screen and (max-width: 480px) {
   .span_4_of_4 {
     width: 100%; }
