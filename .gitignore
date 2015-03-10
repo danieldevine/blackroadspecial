@@ -12,6 +12,5 @@ junk/*
 .htaccess
 .sass-cache
 *.css.map
-gruntfile.js
 img/raw/*
 img/store/*
