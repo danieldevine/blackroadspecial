@@ -67,7 +67,7 @@ module.exports = function (grunt) {
 
     watch: {
       options: {
-        livereload: false,
+        livereload: true,
       },
       scripts: {
         files: ['js/*.js', 'js/libs/*.js'],
@@ -79,6 +79,12 @@ module.exports = function (grunt) {
       css: {
         files: ['scss/*.scss'],
         tasks: ['sass'],
+        options: {
+          spawn: false
+        }
+      },
+      php: {
+        files: ['**/*.php'],
         options: {
           spawn: false
         }
