@@ -49,7 +49,7 @@
 
                 <ul>
                   <?php wp_nav_menu('secondary') ?>
-                  <p>(LinkedIn is for weenies.)</p>
+                  <p>No LinkedIn, <a href="http://www.thebaffler.com/salvos/all-linkedin-with-nowhere-to-go">thanks.</a></p>
                 </ul>
 
               </div>
