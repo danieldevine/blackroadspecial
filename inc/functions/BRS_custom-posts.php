@@ -32,6 +32,7 @@ function BRS_works() {
         'description'   => 'Holds our works and work specific data',
         'public'        => true,
         'menu_position' => 5,
+        'menu_icon'     => 'dashicons-portfolio',
         'supports'      => array( 'title', 'editor', 'thumbnail', 'excerpt', 'comments' ),
         'has_archive'   => true,
         // Set the available taxonomies here
@@ -64,6 +65,7 @@ function BRS_services() {
         'description'   => 'Holds our services and service specific data',
         'public'        => true,
         'menu_position' => 6,// don't forget to update this
+        'menu_icon'     => 'dashicons-products',
         'supports'      => array( 'title', 'editor', 'thumbnail', 'excerpt', 'comments' ),
         'has_archive'   => true,
         // Set the available taxonomies here
