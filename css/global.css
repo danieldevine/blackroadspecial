@@ -796,6 +796,29 @@ header {
   margin: 10px auto 0;
   background-image: url(../img/build/line.png); }
 
+.page-contact {
+  padding: 0 4em;
+  text-align: left; }
+  .page-contact h2 {
+    color: #008dd2;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 0; }
+
+.page-contact p:after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+  margin: 0 auto;
+  background-image: url(../img/build/line.png); }
+
+@media only screen and (max-width: 600px) {
+  .page-contact {
+    padding: 4em 1em; }
+    .page-contact h2 {
+      display: inline-block;
+      margin-right: 10px; } }
 .index-wrapper {
   margin-top: 30px; }
 

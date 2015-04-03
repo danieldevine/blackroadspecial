@@ -1,11 +1,11 @@
 <?php
   /**
   * @Theme Name   :    blackroadspecial
-  * @file         :    content-page.php
+  * @file         :    content-form-page.php
   * @package      :    blackroadspecial
   * @author       :    Dan Devine
   * @license      :    GPLv3
-  * @filesource   :    wp-content/themes/blackroadspecial/content-page.php
+  * @filesource   :    wp-content/themes/blackroadspecial/content-form-page.php
   */
   get_header();?>
 
@@ -22,11 +22,9 @@
   </div>
 
   <div class="col span_5_of_12">
-  <p> Phone: 085 1527761</p>
-  <p> Email: dan@blackroad.ie</p>
-  <p> Ardpatrick, Co.Limerick, Ireland</p>
 
-    <?php get_template_part('inc/BRS_sharing-is-caring'); ?>
+<?php get_template_part('inc/BRS_page-contact'); ?>
+<?php get_template_part('inc/BRS_sharing-is-caring'); ?>
 
   </div>
 

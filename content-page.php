@@ -27,7 +27,7 @@
       <?php the_post_thumbnail(); ?>
     </div>
     <?php get_template_part('inc/BRS_sharing-is-caring'); ?>
-
+    <?php get_template_part('inc/BRS_page-contact'); ?>
   </div>
 
 </div>
