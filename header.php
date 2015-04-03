@@ -21,11 +21,11 @@
 <title><?php wp_title('|','true','right'); ?><?php bloginfo('name'); ?></title>
 
 <!--//favicon soup-->
-<link href="<?php echo  get_template_directory_uri();?>favicon.ico"                               rel="shortcut icon">
-<link href="<?php echo  get_template_directory_uri();?>/apple-touch-icon.png"                     rel="apple-touch-icon">
-<link href="<?php echo  get_template_directory_uri();?>/apple-touch-icon-72x72-precomposed.png"   rel="apple-touch-icon" sizes="72x72">
-<link href="<?php echo  get_template_directory_uri();?>/apple-touch-icon-114x114-precomposed.png" rel="apple-touch-icon" sizes="114x114">
-<link href="<?php echo  get_template_directory_uri();?>/apple-touch-icon-144x144-precomposed.png" rel="apple-touch-icon" sizes="144x144">
+<link href="<?php echo  get_template_directory_uri();?>/iconsfavicon.ico"                               rel="shortcut icon">
+<link href="<?php echo  get_template_directory_uri();?>/icons/apple-touch-icon.png"                     rel="apple-touch-icon">
+<link href="<?php echo  get_template_directory_uri();?>/icons/apple-touch-icon-72x72-precomposed.png"   rel="apple-touch-icon" sizes="72x72">
+<link href="<?php echo  get_template_directory_uri();?>/icons/apple-touch-icon-114x114-precomposed.png" rel="apple-touch-icon" sizes="114x114">
+<link href="<?php echo  get_template_directory_uri();?>/icons/apple-touch-icon-144x144-precomposed.png" rel="apple-touch-icon" sizes="144x144">
 
 <?php wp_head(); ?>
 
