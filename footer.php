@@ -64,7 +64,7 @@
                 <h3 class="lined">WHO ARE WE?</h3>
 
                 We're a small and flexible design studio, building a big
-                reputation for quality design. Black Road Design were founded in 2012 by
+                reputation for high quality web development and design. Black Road Design were founded in 2012 by
                 Dan Devine, who has 650 years experience of designing for
                 print, web and TV. Say hi on <a href="https://twitter.com/blackroaddesign" target="_blank">Twitter</a>
 
@@ -100,7 +100,7 @@
           Theme: <a href="http://github.com/danieldevine/blackroadspecial.git" target="_blank"> blackroadspecial </a>
           by Daniel Devine.<br/>
           Built with <a href="http://gruntjs.com/" target="_blank">Grunt</a> &amp;
-          <a href="http://sass-lang.com/" hidden=""target="_blank">Sass</a> in Ireland.
+          <a href="http://sass-lang.com/" target="_blank">Sass</a> in Ireland.
           Powered by <a href="http://wordpress.org" target="_blank"> Wordpress </a>
 
         </div>

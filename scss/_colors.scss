@@ -4,6 +4,8 @@ $third-color:#ef7f1a;//bright orange
 $fourth-color: #ff0;//yellow
 $highlight:#099EE7;//brighter blue
 
+$texture: url("../img/build/14.png"); //the lined bitmap texture
+
 @mixin shadow {
   box-shadow: 0 10px 0px 5px rgba(0,0,0,0.1);
 }
