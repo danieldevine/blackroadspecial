@@ -16,15 +16,15 @@
     <h2 class="single-title lined"><?php the_title(); ?></h2>
 
     <div class="single-content">
- <?php get_template_part('inc/BRS_contact-form'); ?>
+      <?php the_content(); ?>
     </div>
 
   </div>
 
   <div class="col span_5_of_12">
 
-<?php get_template_part('inc/BRS_page-contact'); ?>
-<?php get_template_part('inc/BRS_sharing-is-caring'); ?>
+    <?php get_template_part('inc/BRS_page-contact'); ?>
+    <?php get_template_part('inc/BRS_sharing-is-caring'); ?>
 
   </div>
 
