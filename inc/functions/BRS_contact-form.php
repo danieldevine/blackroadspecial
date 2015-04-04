@@ -1,56 +1,56 @@
 <?php
-
+//lets make a custom contact form as part of the theme then.
 
 function html_form_code() {
     echo '<form action="' . esc_url( $_SERVER['REQUEST_URI'] ) . '" method="post">';
     echo '<p>';
-    echo 'Your Name (required) <br/>';
-    echo '<input type="text" name="cf-name" pattern="[a-zA-Z0-9 ]+" value="' . ( isset( $_POST["cf-name"] ) ? esc_attr( $_POST["cf-name"] ) : '' ) . '" size="40" />';
+    echo '<label>Your Name * <br/></label>';
+    echo '<input type="text" class="BRS_field-input" name="BRS-name" pattern="[a-zA-Z0-9 ]+" value="' . ( isset( $_POST["BRS-name"] ) ? esc_attr( $_POST["BRS-name"] ) : '' ) . '" size="40" />';
     echo '</p>';
     echo '<p>';
-    echo 'Your Email (required) <br/>';
-    echo '<input type="email" name="cf-email" value="' . ( isset( $_POST["cf-email"] ) ? esc_attr( $_POST["cf-email"] ) : '' ) . '" size="40" />';
+    echo '<label>Your Email * <br/></label>';
+    echo '<input type="email" class="BRS_field-input" name="BRS-email" value="' . ( isset( $_POST["BRS-email"] ) ? esc_attr( $_POST["BRS-email"] ) : '' ) . '" size="40" />';
     echo '</p>';
     echo '<p>';
-    echo 'Subject (required) <br/>';
-    echo '<input type="text" name="cf-subject" pattern="[a-zA-Z ]+" value="' . ( isset( $_POST["cf-subject"] ) ? esc_attr( $_POST["cf-subject"] ) : '' ) . '" size="40" />';
+    echo '<label>Subject * <br/></label>';
+    echo '<input type="text" class="BRS_field-input" name="BRS-subject" pattern="[a-zA-Z ]+" value="' . ( isset( $_POST["BRS-subject"] ) ? esc_attr( $_POST["BRS-subject"] ) : '' ) . '" size="40" />';
     echo '</p>';
     echo '<p>';
-    echo 'Your Message (required) <br/>';
-    echo '<textarea rows="10" cols="35" name="cf-message">' . ( isset( $_POST["cf-message"] ) ? esc_attr( $_POST["cf-message"] ) : '' ) . '</textarea>';
+    echo '<label>Your Message * <br/></label>';
+    echo '<textarea class="BRS_field-input" rows="10" cols="35" name="BRS-message">' . ( isset( $_POST["BRS-message"] ) ? esc_attr( $_POST["BRS-message"] ) : '' ) . '</textarea>';
     echo '</p>';
-    echo '<p><input type="submit" name="cf-submitted" value="Send"></p>';
+    echo '<p><input type="submit" class="BRS-submit-button" name="BRS-submitted" value="Send"></p>';
     echo '</form>';
 }
 
 function deliver_mail() {
 
     // if the submit button is clicked, send the email
-    if ( isset( $_POST['cf-submitted'] ) ) {
+    if ( isset( $_POST['BRS-submitted'] ) ) {
 
         // sanitize form values
-        $name    = sanitize_text_field( $_POST["cf-name"] );
-        $email   = sanitize_email( $_POST["cf-email"] );
-        $subject = sanitize_text_field( $_POST["cf-subject"] );
-        $message = esc_textarea( $_POST["cf-message"] );
+        $name    = sanitize_text_field( $_POST["BRS-name"] );
+        $email   = sanitize_email( $_POST["BRS-email"] );
+        $subject = sanitize_text_field( $_POST["BRS-subject"] );
+        $message = esc_textarea( $_POST["BRS-message"] );
 
         // get the blog administrator's email address
         $to = get_option( 'admin_email' );
 
         $headers = "From: $name <$email>" . "\r\n";
 
-        // If email has been process for sending, display a success message
+        // show a nice success message
         if ( wp_mail( $to, $subject, $message, $headers ) ) {
             echo '<div>';
-            echo '<p>Thanks for contacting me, expect a response soon.</p>';
+            echo '<p>Thanks for contacting me, Ill get back to you with a reply as soon as I can.</p>';
             echo '</div>';
         } else {
-            echo 'An unexpected error occurred';
+            echo 'An error has occured with your submission, please try again.'; // or a nice failure message...
         }
     }
 }
 
-function cf_shortcode() {
+function BRS_shortcode() {
     ob_start();
     deliver_mail();
     html_form_code();
@@ -58,6 +58,8 @@ function cf_shortcode() {
     return ob_get_clean();
 }
 
-add_shortcode( 'BRS_contact-form', 'cf_shortcode' );
+//add the freaking shortcode already.
+add_shortcode( 'BRS_contact-form', 'BRS_shortcode' );
 
+//we'll turn this into a little button on the TinyMCE elsewhere.
 ?>
