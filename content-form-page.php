@@ -7,7 +7,7 @@
   * @license      :    GPLv3
   * @filesource   :    wp-content/themes/blackroadspecial/content-form-page.php
   */
-  get_header();?>
+ ?>
 
 <div class="section group">
 
@@ -16,7 +16,7 @@
     <h2 class="single-title lined"><?php the_title(); ?></h2>
 
     <div class="single-content">
-    <?php the_content(); ?>
+ <?php get_template_part('inc/BRS_contact-form'); ?>
     </div>
 
   </div>
@@ -30,4 +30,4 @@
 
 </div>
 
-<?php get_footer(); ?>
+

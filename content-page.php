@@ -7,7 +7,7 @@
   * @license      :    GPLv3
   * @filesource   :    wp-content/themes/blackroadspecial/content-page.php
   */
-  get_header();?>
+?>
 
 <div class="section group">
 
@@ -32,4 +32,4 @@
 
 </div>
 
-<?php get_footer(); ?>
+
