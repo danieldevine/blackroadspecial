@@ -655,6 +655,13 @@ input.button:hover {
 .span_1_of_12 {
   width: 6.86%; }
 
+@media only screen and (max-width: 1050px) {
+  .span_2_of_12 {
+    width: 32.24%; }
+
+  .span_2_of_12:nth-child(3n+1) {
+    clear: both;
+    margin-left: 0; } }
 @media only screen and (max-width: 600px) {
   .span_12_of_12 {
     width: 100%; }
