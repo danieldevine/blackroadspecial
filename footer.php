@@ -17,13 +17,13 @@
 
            <div class="col span_1_of_4">
             <div class="BRS-flex">
-              <div class="footer-col">
+             <div class="footer-col">
 
               <?php get_template_part('inc/BRS_mailchimp'); ?>
 
+             </div>
             </div>
            </div>
-          </div>
 
            <div class="col span_1_of_4">
             <div class="BRS-flex">
@@ -47,7 +47,7 @@
                 <i class="fa fa-bitbucket fa-2x"></i>
                 </a>
 
-                <ul>
+                <ul class="footer-menu">
                   <?php wp_nav_menu('secondary') ?>
                   <p>No LinkedIn, <a href="http://www.thebaffler.com/salvos/all-linkedin-with-nowhere-to-go">thanks.</a></p>
                 </ul>

@@ -20,6 +20,3 @@ This is not intended or recommended for use on client websites as a lot of the c
 
 ##Licence
 Released under GPL v3.0
-
-
-

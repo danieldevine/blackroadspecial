@@ -18,7 +18,7 @@ footer {
 	}
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
 	footer {
 		height: 950px;//matches bottom margin of body
 	}
@@ -49,8 +49,23 @@ footer a:hover {
 .footer-col {
   text-align:left;
   padding:5%;
+}
+
+@media only screen and (max-width: 666px) {
+  .footer-col {
+    padding:0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .BRS-flex {
+    display:initial;
   }
 
+  .footer-menu {
+    display:none;
+  }
+}
 //credits at the bottom
 
 .footer-credits {

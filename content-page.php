@@ -24,7 +24,7 @@
   <div class="col span_5_of_12">
 
     <div class="single-featured-image">
-      <?php the_post_thumbnail(); ?>
+      <?php the_post_thumbnail('bignail'); ?>
     </div>
     <?php get_template_part('inc/BRS_sharing-is-caring'); ?>
     <?php get_template_part('inc/BRS_page-contact'); ?>

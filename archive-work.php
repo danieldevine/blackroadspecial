@@ -32,7 +32,7 @@
 
       ?>
 
-    <div class="col span_3_of_12">
+    <div class="col span_1_of_4">
       <div class="index-block">
         <a href="<?php the_permalink(); ?>">
           <?php the_post_thumbnail('tailnail'); ?>
@@ -67,7 +67,7 @@
 
       ?>
 
-    <div class="col span_3_of_12">
+    <div class="col span_1_of_4">
       <div class="index-block">
         <a href="<?php the_permalink(); ?>">
           <?php the_post_thumbnail('tailnail'); ?>
@@ -101,7 +101,7 @@
 
       ?>
 
-    <div class="col span_3_of_12">
+    <div class="col span_1_of_4">
       <div class="index-block">
         <a href="<?php the_permalink(); ?>">
           <?php the_post_thumbnail('tailnail'); ?>

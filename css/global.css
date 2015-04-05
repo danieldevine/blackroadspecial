@@ -85,10 +85,28 @@ hr {
   background-image: url(../img/build/line.png);
   border: none; }
 
+pre {
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  -moz-tab-size: 2;
+  -o-tab-size: 2;
+  tab-size: 2; }
+
 code {
   color: #fff;
   background: #333;
-  padding: 4px 6px; }
+  padding: 4px 6px;
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  -moz-tab-size: 2;
+  -o-tab-size: 2;
+  tab-size: 2; }
 
 a {
   color: #008dd2;
@@ -549,13 +567,12 @@ input.button:hover {
     width: 100%; }
 
   .span_1_of_4 {
-    width: 49.2%;
-    margin: 1% 0 1% 0%; }
+    width: 49.2%; }
 
-  .span_1_of_4:nthchild(2n+1) {
+  .span_1_of_4:nth-child(2n+1) {
     clear: both;
     margin-left: 0; } }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
   .span_4_of_4 {
     width: 100%; }
 
@@ -766,7 +783,7 @@ body {
   body {
     margin: 0 0 750px;
     /* bottom = footer height */ } }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
   body {
     margin: 0 0 1000px;
     /* bottom = footer height */ } }
@@ -875,7 +892,7 @@ footer {
 @media only screen and (max-width: 800px) {
   footer {
     height: 700px; } }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
   footer {
     height: 950px; } }
 footer a {
@@ -897,6 +914,15 @@ footer a:hover {
   text-align: left;
   padding: 5%; }
 
+@media only screen and (max-width: 666px) {
+  .footer-col {
+    padding: 0; } }
+@media only screen and (max-width: 600px) {
+  .BRS-flex {
+    display: initial; }
+
+  .footer-menu {
+    display: none; } }
 .footer-credits {
   width: 100%;
   clear: both;
