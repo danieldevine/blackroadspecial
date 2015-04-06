@@ -955,7 +955,7 @@ footer a:hover {
   height: auto;
   margin: 1em auto; }
 
-label {
+form label {
   font-weight: 300;
   color: #008dd2;
   text-transform: uppercase;
