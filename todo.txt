@@ -3,7 +3,7 @@
 - body transition on services page/ 8 to 4 - 4 to 2
 
 # FONTS
-- google fonts/font-face
++ google fonts/font-face
 
 # FORMS
 + bake in form capabilities

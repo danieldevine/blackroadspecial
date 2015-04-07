@@ -10,7 +10,7 @@ b) Re-name the classes.
 	height: auto;
 	border-bottom: #333 thin;
 	@include shadow;
-	background-color: $highlight;
+	background: $highlight $texture;
 }
 
 .subparbar hr {
@@ -20,7 +20,7 @@ b) Re-name the classes.
 .subparsack {
 	width: 90%;
 	max-width: 92.3em;
-	margin: 0 auto;
+	margin: 0 auto 1.5em;
 	padding-bottom: 2em;
 	padding-top: 2em;
 }

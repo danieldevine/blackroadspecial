@@ -33,7 +33,7 @@
                 <!--and let me eat your juicy, juicy braaaaains-->
 
                 <a href="https://www.facebook.com/pages/Black-Road/366545193418022?ref=hl">
-                <i class="fa fa-facebook-official fa-2x"></i>&nbsp;
+                <i class="fa fa-facebook fa-2x"></i>&nbsp;
                 </a>
 
                 <a href="https://twitter.com/blackroaddesign">

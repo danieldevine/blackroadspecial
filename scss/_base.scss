@@ -7,6 +7,8 @@ img {
   border: 0;
 }
 
+
+
 h1 {
   text-align: left;
   font-weight: 300;
@@ -55,10 +57,12 @@ h4 {
 .megah {
   text-align: center;
   line-height: 100%;
-  font-weight: 200;
+  font-family:'Raleway-Thin';
+  letter-spacing:1px;
   color: $second-color;
   font-size: 4em;
   padding-top: 0.6em;
+
 }
 
 @media only screen and (max-width: 689px) {
@@ -114,31 +118,6 @@ hr {
   width: 100%;
   background-image: url(../img/build/line.png);
   border: none;
-}
-
-pre {
-  direction: ltr;
-  text-align: left;
-  white-space: pre;
-  word-spacing: normal;
-  word-break: normal;
-  -moz-tab-size: 2;
-  -o-tab-size: 2;
-  tab-size: 2;
-}
-
-code {
-  color: #fff;
-  background: #333;
-  padding: 4px 6px;
-    direction: ltr;
-  text-align: left;
-  white-space: pre;
-  word-spacing: normal;
-  word-break: normal;
-  -moz-tab-size: 2;
-  -o-tab-size: 2;
-  tab-size: 2;
 }
 
 a {

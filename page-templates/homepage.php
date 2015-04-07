@@ -20,10 +20,10 @@
       <div class="butthead">GET SOME</div>
     </a>
 
-      <div id="rules">
-        <hr>
-        <hr>
-      </div>
+    <div id="rules">
+      <hr>
+      <hr>
+    </div>
   </div>
 </div>
 
@@ -32,32 +32,22 @@
 <div class="mainwrapper">
   <div class="section group">
     <div class="col span_1_of_3">
-      <div class="toppic"><img alt="graphic design" src="<?php echo  get_template_directory_uri();?>/img/build/top4.png" width="80%">
-      </div>
 
-      <h1><img alt="graphic design" src=
-                "<?php echo  get_template_directory_uri();?>/img/build/gdhead.png">GRAPHICS</h1>
+
+      <h1><img alt="graphic design" src="<?php echo  get_template_directory_uri();?>/img/build/gdhead.png">GRAPHICS</h1>
 
       <div class="home-columns">
         <a id="services">
           <hr>
         </a>
-
-        <p><strong>At BLACK ROAD DESIGN we know a lot about logos
-                    and a lot about branding.</strong> We can sort out your company’s whole image, in fact, making you look more professional and reliable to your own customers. We custom design everything from flyers and press ads to books and van wraps with the same level of creativity and attention to detail. Contact us today for an informal chat or a quote and see where we can take you.
-          <!--We also like eating pie, writing SGML comments and playing chess with the dog.-->
-          <br> &nbsp;
-
-        </p>
+        <p><strong>At BLACK ROAD DESIGN we know a lot about logos and a lot about branding.</strong> We can sort out your company’s whole image, in fact, making you look more professional and reliable to your own customers. We custom design everything from flyers and press ads to books and van wraps with the same level of creativity and attention to detail. Contact us today for an informal chat or a quote and see where we can take you.
+          <br> &nbsp;</p>
       </div>
     </div>
 
     <div class="col span_1_of_3">
-      <div class="toppic"><img alt="web design" src="<?php echo  get_template_directory_uri();?>/img/build/top5.png" width="80%">
-      </div>
 
-      <h1><img alt="web design" src="<?php echo  get_template_directory_uri();?>/img/build/webhead.png"> WEB
-                DESIGN</h1>
+      <h1><img alt="web design" src="<?php echo  get_template_directory_uri();?>/img/build/webhead.png"> WEBD DESIGN</h1>
 
       <div class="home-columns">
         <hr>
@@ -69,8 +59,7 @@
     </div>
 
     <div class="col span_1_of_3">
-      <div class="toppic"><img alt="print" src="<?php echo  get_template_directory_uri();?>/img/build/top6.png" width="80%">
-      </div>
+
 
       <h1><img alt="print management" src=
                 "<?php echo  get_template_directory_uri();?>/img/build/printhead.png">PRINT</h1>
@@ -94,7 +83,7 @@
   <!-- this awesome line brought to you by the power of love. Let's all hold hands and shut the fuck up in its honour. -->
   <hr>
 
-<div class="gappy"></div>
+  <div class="gappy"></div>
 </div>
 <!-- end mainwrapper. Catch you later, you old dog you. -->
 <!-- let the heartache begin -->

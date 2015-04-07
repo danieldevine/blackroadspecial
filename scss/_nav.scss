@@ -36,7 +36,6 @@ nav {
 	height: 0;
 	border: 0.313em solid transparent;
 	border-bottom: none;
-	border-top-color: rgb(0,0,0);
 	border-top-color: rgba(0,0,0,0.8);
 	content: '';
 	vertical-align: middle;
@@ -50,8 +49,7 @@ nav {
 	height: 6.75em;
 	/* the main block */
 
-	background: rgb(0,141,210);
-	background-color: rgba(0,141,210,1.0);
+	background: $prime-color $texture;
 }
 
 #nav > ul > li {
@@ -74,8 +72,7 @@ nav {
 }
 
 #nav > ul > li:hover > a,  #nav > ul:not( :hover ) > li.active > a {
-	background: rgb(239,127,26);
-	background-color: rgba(239,127,26,1.0);
+	background: $third-color $texture;
 }
 
 @media only screen and ( max-width: 62.5em ) /* 1000 */ {
