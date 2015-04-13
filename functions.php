@@ -2,6 +2,7 @@
 
 include_once('inc/functions/BRS_register-menus.php');
 include_once('inc/functions/BRS_add-buttons.php');
+include_once('inc/functions/BRS_admin-pages.php');
 include_once('inc/functions/BRS_enqueue-styles-scripts.php');
 include_once('inc/functions/BRS_custom-posts.php');
 include_once('inc/functions/BRS_shortcodes.php');

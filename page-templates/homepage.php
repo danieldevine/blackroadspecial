@@ -9,7 +9,7 @@
       <hr>
     </div>
     <div class="megah">
-      RESPONSIVE WEB DESIGN
+     <?php echo get_option( 'BRS_text_field_0', 'BRS_settings' ); ?> 
     </div>
     <div class="holster">
       <p> We're Black Road Design: quality graphic and web designers. </br> We solve your design problems.</p>

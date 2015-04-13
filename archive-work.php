@@ -1,4 +1,4 @@
-<?php
+ <?php
   /**
   * @Theme Name   :    blackroadspecial
   * @file         :    ìndex.php
@@ -13,12 +13,13 @@
 
  <div class="index-wrapper">
    <div id="rules"><hr><hr></div>
-   <div class ="section group">
+
+      <div class ="section group">
 
       <?php
 
         $args=array(
-          'posts_per_page'=>'4',
+          'posts_per_page'=>'0',
           'post_type'=>'work'
         );
 
@@ -46,76 +47,7 @@
     <?php endif; ?>
 
     </div>
-
-      <div class ="section group">
-
-      <?php
-
-        $args=array(
-          'posts_per_page'=>'4',
-          'post_type'=>'work',
-          'offset' =>'4'
-        );
-
-        $category_posts = new WP_Query($args);
-
-        if($category_posts->have_posts()) :
-
-        while($category_posts->have_posts()) :
-
-        $category_posts->the_post();
-
-      ?>
-
-    <div class="col span_1_of_4">
-      <div class="index-block">
-        <a href="<?php the_permalink(); ?>">
-          <?php the_post_thumbnail('tailnail'); ?>
-           <h2 class="index-title lined"> <?php the_title(); ?> </h2>
-        </a>
-      </div>
-    </div>
-
-    <?php endwhile; else: ?>
-    I'm afraid that there are no posts.
-    <?php endif; ?>
-
-    </div>
-       <div class ="section group">
-
-      <?php
-
-        $args=array(
-          'posts_per_page'=>'4',
-          'post_type'=>'work',
-          'offset'=>'8'
-        );
-
-        $category_posts = new WP_Query($args);
-
-        if($category_posts->have_posts()) :
-
-        while($category_posts->have_posts()) :
-
-        $category_posts->the_post();
-
-      ?>
-
-    <div class="col span_1_of_4">
-      <div class="index-block">
-        <a href="<?php the_permalink(); ?>">
-          <?php the_post_thumbnail('tailnail'); ?>
-           <h2 class="index-title lined"> <?php the_title(); ?> </h2>
-        </a>
-      </div>
-    </div>
-
-    <?php endwhile; else: ?>
-    I'm afraid that there are no posts.
-    <?php endif; ?>
-
-    </div>
-
+ 
   </div>
 </div>
 

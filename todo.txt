@@ -1,6 +1,6 @@
 # GRIDS
-- footer transition
-- body transition on services page/ 8 to 4 - 4 to 2
++ footer transition
++ body transition on services page/ 8 to 4 - 4 to 2
 
 # FONTS
 + google fonts/font-face
