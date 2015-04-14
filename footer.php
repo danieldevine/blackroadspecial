@@ -112,4 +112,9 @@
   </body>
 
 <?php wp_footer(); ?>
+<script>
+
+     jQuery('#home-slider').liquidSlider();
+
+</script>
 </html>

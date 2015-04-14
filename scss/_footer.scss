@@ -2,78 +2,76 @@ footer {
 	position: absolute;
 	left: 0px;
 	bottom: 0px;
-	height: 450px;// this plus margin has to match the bottom margin on the body element in main.scss
-	margin-top: 50px;
+	height: 450px; // this plus margin has to match the bottom margin on the body element in main.scss
+	margin-top: 25px;
 	width: 100%;
 	background: rgba(0,0,0,0.8);
 	overflow: hidden;
 	color: #fff;
-    text-align: left;
-    font-size:13px;
+	text-align: left;
+	font-size:13px;
 }
 
 @media only screen and (max-width: 800px) {
-	footer {
-		height: 700px;//matches bottom margin of body
-	}
+  footer {
+    height: 700px; //matches bottom margin of body
+  }
 }
 
 @media only screen and (max-width: 600px) {
-	footer {
-		height: 950px;//matches bottom margin of body
-	}
+  footer {
+    height: 950px; //matches bottom margin of body
+  }
 }
 
 //colour scheme for links in the footer
-
 footer a {
-	color: $prime-color;
+  color: $prime-color;
 }
 
-
 footer a:hover {
-	color: $fourth-color;
+  color: $fourth-color;
 }
 
 .footer-wrapper {
-  width:90%;
-  margin:0 auto;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .BRS-flex {
-  display:flex;
-  justify-content:center;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
 .footer-col {
-  text-align:left;
-  padding:5%;
+  text-align: left;
+  padding: 5%;
 }
 
 @media only screen and (max-width: 666px) {
   .footer-col {
-    padding:0;
+    padding: 0;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .BRS-flex {
-    display:initial;
+    display: initial;
   }
 
   .footer-menu {
-    display:none;
+    display: none;
   }
 }
-//credits at the bottom
 
+//credits at the bottom
 .footer-credits {
   width: 100%;
   clear: both;
   padding-top: 50px;
-  font-size:10px;
-  text-transform:uppercase;
-  line-height:20px;
-  text-align:center;
+  font-size: 10px;
+  text-transform: uppercase;
+  line-height: 20px;
+  text-align: center;
 }

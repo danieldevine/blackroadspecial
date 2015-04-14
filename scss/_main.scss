@@ -1,48 +1,51 @@
 body {
-    font-family: 'OpenSansRegular';
-	text-align: center;
-	width: 100%;
-	padding: 0;
-	min-height: 100%;
-	margin: 0 0 600px;/* bottom = footer height */
-	color: #333;
+  font-family: 'OpenSansRegular';
+  text-align: center;
+  width: 100%;
+  padding: 0;
+  min-height: 100%;
+  margin: 0 0 475px; /* bottom = footer height */
+  color: #333;
 }
 
 @media only screen and (max-width: 800px) {
-	body {
-		margin: 0 0 750px;/* bottom = footer height */;
-	}
+  body {
+    margin: 0 0 775px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-	body {
-		margin: 0 0 1000px;/* bottom = footer height */;
-	}
+  body {
+    margin: 0 0 975px;
+  }
 }
-
 /*the header-------------------------------*/
+
 header {
   height: 100px;
   margin: 0 auto;
 }
 
-@media only screen and ( max-width: 40em ) /* 640 */ {
+@media only screen and ( max-width: 40em)
+/* 640 */
+
+{
   header {
     height: 100%;
     position: relative;
-    background: rgb(0,0,0);
+    background: rgb(0, 0, 0);
   }
 }
 
 .mainwrapper {
-	margin: 0 auto;
-	clear: both;
-	width: 90%;
-	max-width: 92.3em;
+  margin: 0 auto;
+  clear: both;
+  width: 90%;
+  max-width: 92.3em;
+  font-size: 14px;
 }
 
 // class to add lines fore and aft.
-
 .lined:before {
   content: "";
   display: block;
@@ -62,7 +65,6 @@ header {
 }
 
 // class to add shorter lines fore and aft.
-
 .lined-short:before {
   content: "";
   display: block;
@@ -84,30 +86,36 @@ header {
 //contact details on pages
 .page-contact {
   padding: 0 4em;
-  text-align:left;
-    h2 {
-      color:$prime-color;
-      text-transform:uppercase;
-      font-size:20px;
-      margin:0;
-    }
+  text-align: left;
+  h2 {
+    color: $prime-color;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 0;
+    display:inline;
+  }
 }
 
-  .page-contact p:after {
-    content: "";
-    display: block;
-    height: 1px;
-    width: 100%;
-    margin: 0 auto;
-    background-image: url(../img/build/line.png);
-  }
+.page-contact p:after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+  margin: 0 auto;
+  background-image: url(../img/build/line.png);
+}
+
+.contact-blurb {
+  text-align:left;
+  padding:2em 3em;
+}
 
 @media only screen and (max-width: 600px) {
   .page-contact {
-  padding: 4em 1em;
+    padding: 4em 1em;
     h2 {
-      display:inline-block;
-      margin-right:10px;
+      display: inline-block;
+      margin-right: 10px;
     }
   }
 }

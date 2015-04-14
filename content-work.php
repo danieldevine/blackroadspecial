@@ -11,7 +11,15 @@
 
 <div class="section group">
 
+
   <div class="col span_7_of_12">
+
+
+  </div>
+
+
+  <div class="col span_5_of_12">
+
 
     <h2 class="single-title lined"><?php the_title(); ?></h2>
 
@@ -19,13 +27,6 @@
     <?php the_content(); ?>
     </div>
 
-  </div>
-
-  <div class="col span_5_of_12">
-
-    <div class="single-featured-image">
-      <?php the_post_thumbnail(); ?>
-    </div>
     <?php get_template_part('inc/BRS_sharing-is-caring'); ?>
     <?php get_template_part('inc/BRS_next-prev'); ?>
 

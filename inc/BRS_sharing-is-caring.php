@@ -12,10 +12,7 @@
 
   <!-- Reddit -->
   <a href="http://reddit.com/submit?url=<?php get_site_url();?>" target="_blank"><img src="<?php echo  get_template_directory_uri();?>/img/build/reddit.png" alt="Reddit" /></a>
-
-  <!-- LinkedIn -->
-  <a href="http://www.linkedin.com/shareArticle?mini=true&url=<?php get_site_url();?>" target="_blank"><img src="<?php echo  get_template_directory_uri();?>/img/build/linkedin.png" alt="LinkedIn" /></a>
-
+  
   <!-- Pinterest -->
   <a href="javascript:void((function()%7Bvar%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','http://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)%7D)());"><img src="<?php echo  get_template_directory_uri();?>/img/build/pinterest.png" alt="Pinterest" /></a>
 

@@ -294,7 +294,7 @@
 	width: 6.86%;
 }
 
-.span_2_of_12:nth-child(6n+1){
+.span_2_of_12:nth-child(6n+1){ //let the content flow when we dont know how much is there.
   clear:both;
   margin-left:0
 }

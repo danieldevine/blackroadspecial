@@ -10,7 +10,6 @@
   get_header();?>
 
 <div class="mainwrapper">
-
  <div class="index-wrapper">
    <div id="rules"><hr><hr></div>
 
@@ -47,8 +46,6 @@
       <?php endif; ?>
 
       </div>
-
-
   </div>
 </div>
 

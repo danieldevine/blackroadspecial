@@ -34,7 +34,7 @@ function deliver_mail() {
         $subject = sanitize_text_field( $_POST["BRS-subject"] );
         $message = esc_textarea( $_POST["BRS-message"] );
 
-        // get the blog administrator's email address
+        // get the administrator's email address
         $to = get_option( 'admin_email' );
 
         $headers = "From: $name <$email>" . "\r\n";
