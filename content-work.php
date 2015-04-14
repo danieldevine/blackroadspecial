@@ -9,29 +9,21 @@
   */
   ?>
 
-<div class="section group">
+<div class="col span_5_of_12">
 
+  <h2 class="single-title lined">
+    <?php the_title(); ?>
+  </h2>
 
-  <div class="col span_7_of_12">
-
-
-  </div>
-
-
-  <div class="col span_5_of_12">
-
-
-    <h2 class="single-title lined"><?php the_title(); ?></h2>
-
-    <div class="single-content">
+  <div class="single-content">
     <?php the_content(); ?>
-    </div>
-
-    <?php get_template_part('inc/BRS_sharing-is-caring'); ?>
-    <?php get_template_part('inc/BRS_next-prev'); ?>
-
   </div>
+
+  <?php get_template_part('inc/BRS_sharing-is-caring'); ?>
+  <?php get_template_part('inc/BRS_next-prev'); ?>
 
 </div>
+
+
 
 

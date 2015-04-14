@@ -1,5 +1,5 @@
 <!--start sharing-->
-<div class="sharing-is-caring lined-short">
+<div class="sharing-is-caring lined">
 
   <!-- Facebook -->
   <a href="http://www.facebook.com/sharer.php?u=<?php get_site_url();?>" target="_blank"><img src="<?php echo  get_template_directory_uri();?>/img/build/facebook.png" alt="Facebook" /></a>

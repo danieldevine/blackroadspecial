@@ -115,6 +115,7 @@
 <script>
 
      jQuery('#home-slider').liquidSlider();
+     jQuery('#work-slider').liquidSlider();
 
 </script>
 </html>

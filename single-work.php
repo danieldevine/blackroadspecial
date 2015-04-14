@@ -16,10 +16,19 @@
         <hr />
       </div>
 
+  <div class="section group">
+
       <?php while ( have_posts() ) : the_post(); ?>
       <?php get_template_part('content', 'work'); ?>
       <?php endwhile; // end of the loop. ?>
 
+    <div class="col span_7_of_12">
+      <?php get_template_part('inc/BRS_work-slider'); ?>
+    </div>
+
+
+
+   </div>
   </div>
 </div>
 

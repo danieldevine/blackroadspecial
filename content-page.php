@@ -17,6 +17,7 @@
 
     <div class="single-content">
     <?php the_content(); ?>
+     <?php get_template_part('inc/BRS_sharing-is-caring-long'); ?>
     </div>
 
   </div>
@@ -26,8 +27,9 @@
     <div class="single-featured-image">
       <?php the_post_thumbnail('bignail'); ?>
     </div>
-    <?php get_template_part('inc/BRS_sharing-is-caring'); ?>
+
     <?php get_template_part('inc/BRS_page-contact'); ?>
+
   </div>
 
 </div>
