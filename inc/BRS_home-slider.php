@@ -28,6 +28,7 @@
            <div class="col span_7_of_12">
              <h2 class="title"><?php the_title(); ?></h2>
              <div class="slider-excerpt"><?php the_excerpt(); ?></div>
+             <a class="more-button" href="<?php the_permalink(); ?>">MORE</a>
            </div>
 
          </div>

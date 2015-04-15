@@ -114,7 +114,11 @@
 <?php wp_footer(); ?>
 <script>
 
-     jQuery('#home-slider').liquidSlider();
+     jQuery('#home-slider').liquidSlider({
+       dynamicArrows: false,
+       autoSlide: true
+     });
+
      jQuery('#work-slider').liquidSlider();
 
 </script>

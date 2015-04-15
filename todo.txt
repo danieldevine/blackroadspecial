@@ -12,5 +12,5 @@
 + set up RICG plug-in
 
 # NAV MENU
-- use  <code>wp_nav_menu</code>
++ use  <code>wp_nav_menu</code>
 

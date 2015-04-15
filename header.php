@@ -7,8 +7,7 @@
   * @license      :    GPLv3
   * @filesource   :    wp-content/themes/blackroadspecial/header.php
   */
-  get_header();?>
-
+?>
 <!DOCTYPE html>
 <html lang="en">
 

@@ -68,7 +68,7 @@
 *******************************************************/
 .ls-wrapper .liquid-slider {
   background: #fff;
-  width: 1030px;
+  width: 1300px;
   /* Do not edit below this line */
   float: left;
   overflow: hidden;
@@ -98,7 +98,7 @@
 * for the entire slider.
 *******************************************************/
 .ls-wrapper .liquid-slider .panel {
-  width: 1030px;
+  width: 1300px;
   /* Do not edit below this line */
   display: block;
   float: left;
@@ -264,6 +264,7 @@
 .ls-wrapper .ls-nav-right-arrow {
   width: 25px;
   height: 25px;
+  display:none;
   background: url(../img/build/arrow.png) no-repeat top right;
   margin-top: 50px;
   margin-right: 5px;
@@ -273,6 +274,7 @@
 .ls-wrapper .ls-nav-left-arrow {
   width: 25px;
   height: 25px;
+  display:none;
   background: url(../img/build/arrow.png) no-repeat top left;
   margin-top: 50px;
   margin-left: 5px;

@@ -1829,7 +1829,7 @@ nav {
 
 .left_arrow_box {
   position: relative;
-  background: #008dd2;
+  background: #008dd2 url("../img/build/14.png");
   width: 50%;
   height: 40px;
   float: left;
@@ -1856,7 +1856,7 @@ nav {
 
 .right_arrow_box {
   position: relative;
-  background: #ef7f1a;
+  background: #ef7f1a url("../img/build/14.png");
   width: 50%;
   height: 40px;
   float: right;
@@ -1946,6 +1946,20 @@ input.button:hover {
   width: 30px;
   padding: 2px;
   display: inline; }
+
+.more-button {
+  background: #ef7f1a;
+  border-radius: 10px;
+  color: #fff;
+  display: inline-block;
+  font-size: 1em;
+  letter-spacing: 1px;
+  padding: 10px;
+  float: left;
+  transition: all 0.5s ease; }
+
+.more-button:hover {
+  background: #333; }
 
 .col {
   display: block;
@@ -2415,7 +2429,7 @@ header {
 
 @media only screen and (max-width: 600px) {
   .page-contact {
-    padding: 4em 1em; }
+    padding: 1em; }
     .page-contact h2 {
       display: inline-block;
       margin-right: 10px; } }
@@ -2510,6 +2524,9 @@ footer a:hover {
   height: auto;
   margin: 1em auto; }
 
+@media only screen and (max-width: 600px) {
+  .single-title {
+    margin-top: 0; } }
 code[class*="language-"],
 pre[class*="language-"] {
   color: #f8f8f2;
@@ -5139,7 +5156,7 @@ body {
 *******************************************************/
 .ls-wrapper .liquid-slider {
   background: #fff;
-  width: 1030px;
+  width: 1300px;
   /* Do not edit below this line */
   float: left;
   overflow: hidden;
@@ -5168,7 +5185,7 @@ body {
 * for the entire slider.
 *******************************************************/
 .ls-wrapper .liquid-slider .panel {
-  width: 1030px;
+  width: 1300px;
   /* Do not edit below this line */
   display: block;
   float: left; }
@@ -5325,6 +5342,7 @@ body {
 .ls-wrapper .ls-nav-right-arrow {
   width: 25px;
   height: 25px;
+  display: none;
   background: url(../img/build/arrow.png) no-repeat top right;
   margin-top: 50px;
   margin-right: 5px;
@@ -5334,6 +5352,7 @@ body {
 .ls-wrapper .ls-nav-left-arrow {
   width: 25px;
   height: 25px;
+  display: none;
   background: url(../img/build/arrow.png) no-repeat top left;
   margin-top: 50px;
   margin-left: 5px;

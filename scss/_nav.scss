@@ -136,7 +136,7 @@ nav {
     right: 0;
     background: rgb(0, 141, 210);
   }
-  
+
   #nav:target > ul {
     display: block;
   }
@@ -219,7 +219,7 @@ nav {
 //left
 .left_arrow_box {
   position: relative;
-  background: $prime-color;
+  background: $prime-color $texture;
   width: 50%;
   height: 40px;
   float: left;
@@ -250,7 +250,7 @@ nav {
 //right
 .right_arrow_box {
   position: relative;
-  background: $third-color;
+  background: $third-color $texture;
   width: 50%;
   height: 40px;
   float: right;
