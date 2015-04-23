@@ -19,7 +19,7 @@
     <?php the_content(); ?>
   </div>
 
-  <?php get_template_part('inc/BRS_sharing-is-caring'); ?>
+  <?php get_template_part('inc/BRS_sharing-is-caring-long'); ?>
   <?php get_template_part('inc/BRS_next-prev'); ?>
 
 </div>
