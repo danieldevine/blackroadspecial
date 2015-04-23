@@ -1884,8 +1884,7 @@ nav {
 .next-prev a {
   color: #fff;
   font-size: 10px;
-  text-transform: uppercase;
-  padding: 0 1em; }
+  text-transform: uppercase; }
 
 input.button {
   background: #008dd2;
