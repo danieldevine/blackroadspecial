@@ -23,7 +23,7 @@
 
 
     <div class="col span_7_of_12">
-      <?php get_template_part('inc/BRS_work-slider'); ?>
+      <?php get_template_part('inc/BRS_work-gallery'); ?>
     </div>
 
 <?php endwhile; // end of the loop. ?>

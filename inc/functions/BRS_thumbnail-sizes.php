@@ -5,3 +5,4 @@ set_post_thumbnail_size( 726, 414, true );
 add_image_size( 'tailnail', 300, 300, true );
 add_image_size( 'bignail', 500, 500, false );
 add_image_size( 'smallnail', 200, 200, true );
+add_image_size( 'killernail', 770, 770, true );

@@ -119,7 +119,5 @@
        autoSlide: true
      });
 
-     jQuery('#work-slider').liquidSlider();
-
 </script>
 </html>
