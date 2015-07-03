@@ -17,6 +17,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="author"   content="Black Road Design">
 
+<title><?php wp_title( '|', true, 'right' ); ?></title>
 
 <!--//favicon soup-->
 <link href="<?php echo  get_template_directory_uri();?>/icons/favicon.ico"                              rel="shortcut icon">
